@@ -3,7 +3,6 @@ Responsive Dashboard Design with Charts
 - CSS
 - JAVASCRIPT
 
-<<<<<<< HEAD
 Link Icons: https://boxicons.com/
 
 Link Fonts: https://fonts.google.com/
