@@ -1,1 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f3f2;
+    font-size: 14px;
+}
+
+canvas{
+    width: 100% !important;
+}
+
+img{
+    object-fit: cover;
+}
+
+body{
+    background: #f1f3f2;
+}
+
+.top-container{
+    background-color: #6a5acd;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 10px;
+}
+
+.top-container .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 14px;
+    border-bottom: 2px solid #9370db;
+}
+
+.top-container .nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-container .nav .logo i{
+    color: #f1f3f2;
+    font-size: 24px;
+}
+
+.top-container .nav .logo a{
+    font-size: 16px;
+}
+
+.top-container .nav .nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.top-container .nav .nav-links a{
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.top-container .nav .nav-links a:hover{
+    color: #fff;
+}
+
+.top-container .nav .right-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-container .nav .right-section > i{
+    color: #f1f3f2;
+    background: #9370db;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-container .nav .right-section .profile{
+    display: flex;
+    align-items: center;
+    background: #9370db;
+    padding: 0 10px;
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.top-container .nav .right-section .profile .info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-container .nav .right-section .profile .info img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #f1f3f2;
+}
+
+.top-container .nav .right-section .profile .info a{
+    font-size: 13px;
+}
+
+.top-container .nav .right-section .profile .info p{
+    font-size: 13px;
+    color: #ccc;
+}
+
+.top-container .nav .right-section .profile > i{
+    color: #f1f3f2;
+    font-size: 22px;
+    cursor: pointer;
+}
