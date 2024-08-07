@@ -19,13 +19,16 @@
 
             <div class="nav-links">
                 <a href="#">Dashboard</a>
-                <a href="#">Statistics</a>
                 <a href="#">Courses</a>
+                <a href="#">Statistics</a>
+                <a href="#">Resources</a>
                 <a href="#">Settings</a>
+
             </div>
 
             <div class="right-section">
                 <i class='bx bx-bell'></i>
+                <i class='bx bx-message'></i>
                 <i class='bx bx-search'></i>
 
                 <div class="profile">
@@ -33,16 +36,71 @@
                         <img src="assets/image/profile.jpeg">
                         <div>
                             <a href="#">Giri Sejati Nugraha</a>
-                            <p>Mahasiswa</p>
+                            <p>Student</p>
                         </div>
                     </div>
                     <i class='bx bxs-chevron-down'></i>
                 </div>
             </div>
         </div>
+
+        <div class="status">
+            <div class="header">
+                <h4 id="big">Your Courses</h4>
+                <h4 id="small">Monthly Activity</h4>
+            </div>
+
+            <div class="items-list">
+                <div class="item">
+                    <div class="info">
+                        <div>
+                            <h5>Data Analyst</h5>
+                            <p>- Lorem ipsum dolor sit amet</p>
+                            <p>- Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <i class='bx bx-data'></i>
+                    </div>
+                    <div class="progress">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="info">
+                        <div>
+                            <h5>Data Scientist</h5>
+                            <p>- Lorem ipsum dolor sit amet</p>
+                            <p>- Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <i class='bx bxl-codepen'></i>
+                    </div>
+                    <div class="progress">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="info">
+                        <div>
+                            <h5>Web Developer</h5>
+                            <p>- Lorem ipsum dolor sit amet</p>
+                            <p>- Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <i class='bx bxl-dev-to'></i>
+                    </div>
+                    <div class="progress">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <canvas class="activity-chart"></canvas>
+                </div>
+            </div>
+
+        </div>
+
+
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>    
     <script src="assets/scripts/script.js"></script>
 </body>
 </html>
